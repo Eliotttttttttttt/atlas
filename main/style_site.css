@@ -1,0 +1,105 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+ 
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+ 
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+ 
+h1 {
+    font-size: 32px;
+    color: #ff6b6b;
+}
+ 
+p {
+    font-size: 18px;
+}
+ 
+.form-group {
+    margin-bottom: 20px;
+}
+ 
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+ 
+input[type="text"],
+input[type="email"],
+select {
+    width: calc(100% - 20px);
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-top: 5px;
+    background-color: #f2f2f2;
+    transition: background-color 0.3s ease;
+}
+ 
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus {
+    outline: none;
+    background-color: #e0e0e0;
+}
+ 
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+ 
+button:hover {
+    background-color: #ff4d4d;
+}
+ 
+.conditions {
+    margin-top: 30px;
+}
+ 
+.conditions h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+ 
+.conditions ul {
+    list-style-type: none;
+    padding: 0;
+}
+ 
+.conditions li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+ 
+.conditions li::before {
+    content: "\2022"; /* Utilisation d'un point comme marqueur */
+    color: #ff6b6b;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
